@@ -17,8 +17,6 @@ namespace WebAPI_back_end
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
 
-
-
             // Add services to the container.
 
             builder.Services.AddControllers();
